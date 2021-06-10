@@ -6,7 +6,9 @@ body {
   line-height: 1.5; /* adapt to your design */
 }
 
-header {
+ img {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+flex-wrap: wrap;
+align-content: flex-start;
 }

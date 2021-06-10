@@ -6,10 +6,10 @@ body {
   line-height: 1.5; /* adapt to your design */
 }
 
-.topnav ul {
+.topnav {
   padding: 0px;
   margin: 0px;
-  text-align: center;
+  text-align: right;
   display: inline-block;
   vertical-align: top;
 }

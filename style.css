@@ -9,8 +9,9 @@ body {
 img {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 nav {
     display: flex;
-    flex-direction: row;
+flex-wrap: nowrap;
   }

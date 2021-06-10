@@ -1,17 +1,12 @@
 body {
-	background-color: #fff;
-	color: #000;
-	font-family: "Raleway", arial, sans-serif;
-	font-size: 1em; /* equiv 14px */
-	line-height: 1.5; /* adapt to your design */
+  background-color: #fff;
+  color: #000;
+  font-family: "Raleway", arial, sans-serif;
+  font-size: 1em; /* equiv 14px */
+  line-height: 1.5; /* adapt to your design */
 }
 
-img {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+header {
+  display: flex;
+  flex-wrap: wrap;
 }
-nav {
-    display: flex;
-flex-wrap: nowrap;
-  }

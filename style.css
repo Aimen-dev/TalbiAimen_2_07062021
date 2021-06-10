@@ -23,7 +23,7 @@ li {
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: #0065fc;
   text-align: Right;
   padding: 14px 16px;

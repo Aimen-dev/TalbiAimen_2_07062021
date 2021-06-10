@@ -9,7 +9,7 @@ body {
   line-height: 1.5; /* adapt to your design */
 }
 .container{
-    display: inline-block;
+    display: inline;
 }
 ul {
   list-style-type: none;

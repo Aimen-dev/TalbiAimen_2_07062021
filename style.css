@@ -1,15 +1,27 @@
-body {
-  background-color: #fff;
-  color: #000;
-  font-family: "Raleway", arial, sans-serif;
-  font-size: 1em; /* equiv 14px */
-  line-height: 1.5; /* adapt to your design */
+* {
+  transition: all 0.3s ease-in-out;
 }
 
-.topnav {
-  padding: 0px;
-  margin: 0px;
-  text-align: right;
+.container {
+  clear: both;
+  overflow: auto;
+}
+
+nav {
+  float: right;
+}
+
+.logo img {
+  float: left;
+}
+
+ul li {
   display: inline-block;
-  vertical-align: top;
+  padding: 10px;
+  font-size: 20px;
+  font-family: raleway;
+}
+
+ul li:hover {
+  color: orange;
 }

@@ -6,7 +6,10 @@ body {
 	line-height: 1.5; /* adapt to your design */
 }
 
-
+img {
+    display: flex;
+    justify-content: flex-start;
+}
 nav {
     display: flex;
     justify-content: flex-end;

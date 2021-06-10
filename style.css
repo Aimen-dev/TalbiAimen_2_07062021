@@ -23,7 +23,9 @@ li {
 }
 
 li a {
-  display: inline-block;
+  display: flex;
+  justify-content:flex-end;
+  flex-direction: row;
   color: #0065fc;
   text-align: Right;
   padding: 14px 16px;

@@ -23,10 +23,7 @@ li {
 }
 
 li a {
-  display: flex;
-  justify-content:flex-end;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
+  display: block;
   color: #0065fc;
   text-align: Right;
   padding: 14px 16px;

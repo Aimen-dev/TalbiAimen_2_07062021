@@ -25,7 +25,7 @@ li {
 li a {
   display: flex;
   justify-content:flex-end;
-  flex-direction: row;
+  flex-direction: row-reverse;
   color: #0065fc;
   text-align: Right;
   padding: 14px 16px;

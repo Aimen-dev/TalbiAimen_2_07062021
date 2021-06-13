@@ -2,7 +2,7 @@
   transition: all 0.3s ease-in-out;
 }
 body {
-  background-color: #111;
+  background-color: #fff;
   color: #000;
   font-family: "Raleway", arial, sans-serif;
   font-size: 1em;
@@ -10,6 +10,7 @@ body {
 }
 .container{
     display: inline;
+    margin: 20em;
 }
 ul {
   list-style-type: none;

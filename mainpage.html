@@ -23,9 +23,9 @@
             </div>
             <nav>
                 <ul>
+                    <li class= "subscribe"><a href="#subscribe">S'inscrire</a></li>
                     <li><a href="#hebergement">Hebergement</a></li>
                     <li><a href="#activite">Activité</a></li>
-                    <li><a href="#subscribe">S'inscrire</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,14 +34,16 @@
     </header>
 
     <section>
-        <div class="searchbar">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="search" id="search" name="search" placeholder="Marseille, France">
+            <div class="search">
+                <i class="fas fa-map-marker-alt"></i>
 
-            <button>Rechercher</button>
-        </div>
+               <input type="text" class="searchTerm" placeholder="Marseille, France">
+               <button type="submit" class="searchButton">
+                Rechercher
+               </button>
+            </div>
 
-        <p>Filtres</p>
+        <p class="filter" >Filtres</p>
 
         <button class="btn"><i class="fas fa-money-bill-wave"></i>Économique</button>
         <button class="btn"><i class="fas fa-child"></i>Familial</button>

@@ -56,11 +56,9 @@ body {
     float: none;
   }
 }
-
 h1 {
   font-size: 16px;
   font-weight: 900;
-  margin-bottom: -10px;
 }
 
 .fa-map-marker-alt {
@@ -160,8 +158,14 @@ h1 {
   padding: 20px;
   max-width: 70%;
   border-radius: 20px;
-  margin: 0 20px 0 20px;
 }
+
+.result-title {
+  font-size: 16px;
+  font-weight: 900;
+  margin: 10px 0 20px 40px;
+}
+
 .center {
   display: flex;
   flex-direction: row;
@@ -170,10 +174,24 @@ h1 {
   align-items: flex-start;
 }
 
+.title-bottom {
+  color: #000;
+  text-align: center;
+  padding: 12px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  margin: 10px 0 20px 25px;
+  text-decoration: none;
+}
+.title-bottom:hover {
+  color: #0065fc;
+}
+
 .rightside {
   background-color: #f2f2f2;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -181,6 +199,9 @@ h1 {
   max-width: 30%;
   border-radius: 20px;
   margin: 0 20px 0 20px;
+}
+.fa-star {
+  color: #d8d8d8;
 }
 .checked {
   color: #0065fc;

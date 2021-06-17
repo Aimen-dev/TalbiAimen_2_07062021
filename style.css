@@ -210,6 +210,11 @@ h1 {
   line-height: 0em;
   padding: 0 0 10px 10px;
 }
+.room-container-2 {
+  padding: 0 0 0 10px;
+  width: 150px;
+  line-height: 1em;
+}
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -223,12 +228,11 @@ h1 {
 .card2 {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  flex-wrap: wrap;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 20px;
   width: 300px;
-  height: 100px;
   padding: 5px;
   margin: 5px;
   background-color: #fff;
@@ -242,8 +246,8 @@ img.pics1 {
 }
 img.pics2 {
   border-radius: 20px 0 0 20px;
-  width: 200px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   padding: 0 10px 0 0;
 }

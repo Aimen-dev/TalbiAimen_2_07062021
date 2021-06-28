@@ -435,9 +435,7 @@ header .logo {
 }
   .header a {
     float: none;
-    display: flex;
-    text-align: left;
-  }
+    }
   
   .header a.active {
     border-top: none;
@@ -446,28 +444,36 @@ header .logo {
   }
   .header a.activite {
     border-top: none;
-    border-bottom: solid 4px #fff;
+    border-bottom: solid 4px #f2f2f2;
 
   }
 
-  
 
   .header-right {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: stretch;
-      align-items: center;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". subscribe"
+      "active activite"; 
+    margin: -60px 0 20px 0;
     float: none;
-    position:relative;
-    
   }
+  .subscribe { grid-area: subscribe; }
+  .active { grid-area: active; }
+  .activite { grid-area: activite; }
 
-  .subscribe {
-    position:absolute;
-    bottom: 65px;
-    right: 0;
-  }
  
+  h1 {
+    margin: 0 0 0 20px;
+    line-height: 1.5em;
+  }
+ p {
+    margin: 0 0 0 20px;
+    line-height: 1.5em;
+    font-size: 0.85em;
+  }
 
 .search-section {
   display: block;
@@ -516,7 +522,7 @@ align-items: flex-start;
 
 .result-title-2{
   display: inline-flex;
-  margin-left : 20px;
+  margin-left : 0;
   position: relative;
 }
 .fa-chart-line {

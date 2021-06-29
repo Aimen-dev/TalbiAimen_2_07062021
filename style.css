@@ -111,9 +111,10 @@ i.fa-search {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 900;
+
 }
 
-.btn {
+.btn{
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 60px;
@@ -473,15 +474,16 @@ header .logo {
     margin: 0 0 0 20px;
     line-height: 1.5em;
     font-size: 0.85em;
+    margin-bottom: 30px;
   }
 
 .search-section {
   display: block;
-  margin: 0 20px 0 20px;
+  margin: 0 10px 0 10px;
 }
   .search {
 display: inline-flex; 
-margin: 0;
+margin: 0 10px 0 10px;
 }
 .searchButton {
   border-radius: 15px;
@@ -496,13 +498,26 @@ i.fa-search {
   display: flex;
 }
 
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+  margin: 0 4px 0 0;
+}
+
 .contenairbtn {
-  display: inline-flex;
-flex-flow: row wrap;
-justify-content: space-between;
-align-items: flex-start;
+  display: inline-block;
+  margin: 30px 0 30px 0;
+}
+.contenairbtn p  {
+  margin: 0;
+  color: #000;
+  font-weight: bolder;
 
 }
+.btn {
+  margin: 5px;
+  padding: 0 4px 0 0;
+}
+
+
 
 .main-result {
   display: flex;

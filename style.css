@@ -429,24 +429,26 @@ img.pics4 {
 
   header {
     margin: 0;
-  
   }
 header .logo {
   margin: 20px 20px 0 20px;
 }
   .header a {
+    padding: 12px 0 12px 0;
+    font-size: 16px;
+  line-height: 40px;
     float: none;
     }
   
   .header a.active {
     border-top: none;
     border-bottom: solid 4px #0065FC;
-    color: #000;
+    color: #0065FC;
   }
   .header a.activite {
     border-top: none;
     border-bottom: solid 4px #f2f2f2;
-
+    color: #000;
   }
 
 
@@ -459,15 +461,17 @@ header .logo {
       ". subscribe"
       "active activite"; 
     margin: -60px 0 20px 0;
-    float: none;
+    width: 100%;
   }
-  .subscribe { grid-area: subscribe; }
+
+  .subscribe { grid-area: subscribe; 
+  margin: 0 0 0 50px}
   .active { grid-area: active; }
   .activite { grid-area: activite; }
 
  
   h1 {
-    margin: 0 0 0 20px;
+    margin: 0 0 10px 20px;
     line-height: 1.5em;
   }
  p {
@@ -491,7 +495,6 @@ margin: 0 10px 0 10px;
 span.text-rechercher {
   display: none;
 }
-
 
 
 i.fa-search {
@@ -530,21 +533,78 @@ i.fa-search {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 30px 15px 0 15px;
   border-radius: 0;
   margin: 0;
 }
-
+.card2 {
+display: inline-flex;
+flex-wrap: wrap;
+width: auto;
+height: 100px;
+}
+img.pics2 { 
+  width: 100px;
+  height: 100px;
+}
+.result-title-2 h1{
+  font-size: 20px;
+  margin: 0 -10px 10px 0;
+  font-weight: bolder;
+}
 .result-title-2{
   display: inline-flex;
-  margin-left : 0;
   position: relative;
 }
 .fa-chart-line {
   font-size: 1.3em;
   position: absolute;
   float: right;
-  margin-right: 20px;
+  margin: 0 50px 5px 0;
 }
 
+.room-container-2 h4 {
+  margin: 10px 0 5px 0;
+}
+
+.room-container-2 p {
+margin: 0 0 15px 0;
+}
+
+.fa-star {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.main-section{
+  background-color: #fff;
+  max-width: 100%;
+  margin: 0;
+}
+
+h1.result-title {
+  font-size: 20px;
+  margin: 0 0 0 10px;
+  font-weight: bolder;
+}
+
+
+.center {
+  display: flex;
+}
+
+.card1 {
+  width: 100%;
+  height: auto;
+}
+.roomcontainer h4{
+  margin: 10px 0 15px 0;
+}
+.roomcontainer p {
+  margin: 0;
+}
+.roomcontainer .fa-star{
+  margin-top: 5px;
+  font-size: 12px;
+}
 }

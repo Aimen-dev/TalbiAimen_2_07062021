@@ -567,23 +567,20 @@ img.pics4 {
     margin-top: 5px;
     font-size: 12px;
   }
-  
- h1.bottom-title { 
-  font-size: 20px;
-  margin: 0 0 10px 25px;
-  font-weight: bolder;
- }
-
+  h1.bottom-title {
+    font-size: 20px;
+    margin: 0 0 10px 25px;
+    font-weight: bolder;
+  }
   .bottom-section {
     margin: 40px 0;
     padding: 0;
   }
- .bottom-result {
-   margin: 0 20px 0 20px;
-   display: flex;
+  .bottom-result {
+    margin: 0 20px 0 20px;
+    display: flex;
   }
   .activite-result {
-
     width: 100%;
     height: 140px;
   }
@@ -595,9 +592,7 @@ img.pics4 {
     font-weight: bolder;
     margin-top: 5px;
   }
-
   .activite-result-2 {
-
     width: 100%;
     height: 140px;
   }
@@ -609,14 +604,12 @@ img.pics4 {
     font-weight: bolder;
     margin-top: 5px;
   }
-
   .footer-container {
     display: inline-flex;
     flex-flow: column wrap;
     margin: 20px 0 20px 30px;
     width: auto;
   }
-
   .col-1, .col-2, .col-3 {
     line-height: 10px;
     margin: 20px 0 20px 0;

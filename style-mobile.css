@@ -1,0 +1,239 @@
+@media screen and (max-width: 500px) {
+
+    /* Ici commence le Header */
+
+    header {
+        margin: 0;
+    }
+    header .logo {
+        margin: 20px 20px 0 20px;
+    }
+    .header a {
+        padding: 12px 0 12px 0;
+        font-size: 16px;
+        line-height: 40px;
+        float: none;
+    }
+    .header a.active {
+        border-top: none;
+        border-bottom: solid 4px #0065FC;
+        color: #0065FC;
+    }
+    .header a.activite {
+        border-top: none;
+        border-bottom: solid 4px #f2f2f2;
+        color: #000;
+    }
+    .header-right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas: ". subscribe" "active activite";
+        margin: -60px 0 20px 0;
+        width: 100%;
+    }
+    .subscribe {
+        grid-area: subscribe;
+        margin: 0 0 0 50px
+    }
+    .active {
+        grid-area: active;
+    }
+    .activite {
+        grid-area: activite;
+    }
+    h1 {
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 0 50px 10px 20px;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    p {
+        margin: 0 0 0 20px;
+        line-height: 1.5em;
+        font-size: 0.85em;
+        margin-bottom: 30px;
+    }
+    /* Ici finit le Header */
+
+
+    /* Bloc recherche et Filtre */
+
+    .search-section {
+        display: inline-block;
+        margin: 0 10px 0 10px;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+    .searchButton {
+        border-radius: 15px;
+    }
+    span.text-rechercher {
+        display: none;
+    }
+    i.fa-search {
+        display: flex;
+    }
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+        margin: 0 4px 0 0;
+    }
+    .contenairbtn {
+        display: inline-block;
+        margin: 30px 0 30px 0;
+    }
+    .contenairbtn p {
+        margin: 0 0 10px 0;
+        color: #000;
+        font-weight: bolder;
+    }
+    .btn {
+        margin: 5px;
+        padding: 0 4px 0 0;
+    }
+    
+
+    /* Bloc recherche et Filtre */
+
+
+    /* Bloc résultat et Les plus populaire */
+
+    .main-result {
+        display: flex;
+        flex-flow: column-reverse wrap;
+        margin: 0;
+    }
+    .rightside {
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 30px 15px 30px 15px;
+        border-radius: 0;
+        margin: 0;
+        align-content: center;
+    }
+    .card2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 120px;
+    }
+    img.pics2 {
+        width: 100px;
+        height: 120px;
+    }
+    .result-title-2 h1 {
+        font-size: 20px;
+        margin: 0 -10px 10px 5px;
+        font-weight: bolder;
+    }
+    .result-title-2 {
+        display: inline-flex;
+        position: relative;
+    }
+    .fa-chart-line {
+        font-size: 1.3em;
+        position: absolute;
+        float: right;
+        margin: 0 50px 5px 0;
+    }
+    .room-container-2 h4 {
+        margin: 10px 0 5px 0;
+    }
+    .room-container-2 p {
+        margin: 0 0 35px 0;
+    }
+    .main-section {
+        background-color: #fff;
+        max-width: 100%;
+        margin: 0;
+    }
+    h1.result-title {
+        font-size: 20px;
+        margin: 30px 0 10px 10px;
+        font-weight: bolder;
+    }
+    .center {
+        display: flex;
+    }
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+    .roomcontainer h4 {
+        margin: 10px 0 15px 0;
+    }
+    .roomcontainer p {
+        margin: 0;
+    }
+    .fa-star {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .roomcontainer .fa-star {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    /* Bloc résultat et Les plus populaire */
+
+
+    /* Bloc Activités */
+
+    h1.bottom-title {
+        font-size: 20px;
+        margin: 0 0 10px 25px;
+        font-weight: bolder;
+    }
+    .bottom-section {
+        margin: 40px 0;
+        padding: 0;
+    }
+    .bottom-result {
+        margin: 0 20px 0 20px;
+        display: flex;
+    }
+    .activite-result {
+        width: 100%;
+        height: 140px;
+    }
+    img.pics3 {
+        width: 100%;
+        height: 100px;
+    }
+    .description-bottom {
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+    .activite-result-2 {
+        width: 100%;
+        height: 140px;
+    }
+    img.pics4 {
+        width: 100%;
+        height: 100px;
+    }
+    .description-bottom {
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+    /* Bloc Activités */
+
+    
+    /* Footer */
+    .footer-container {
+        display: inline-flex;
+        flex-flow: column wrap;
+        margin: 20px 0 20px 30px;
+        width: auto;
+    }
+    .col-1, .col-2, .col-3 {
+        line-height: 10px;
+        margin: 20px 0 20px 0;
+    }
+}
+
+/* Footer */

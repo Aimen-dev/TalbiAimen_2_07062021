@@ -1,0 +1,112 @@
+    /* Barre de recherche */
+
+    .fa-map-marker-alt {
+        background-color: #f2f2f2;
+        padding: 15px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .search-section {
+        margin: 0 40px 0 40px;
+    }
+
+    .search {
+        display: flex;
+    }
+
+    .searchTerm {
+        border: none;
+        border-right: none;
+        padding: 5px;
+        color: #000000;
+        font-weight: bolder;
+    }
+
+    .searchTerm:focus {
+        color: #0065fc;
+    }
+
+    .searchButton {
+        border: none;
+        background: #0065fc;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 15px 15px 0;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    i.fa-search {
+        display: none;
+    }
+
+    .searchButton:hover {
+        background-color: #61a0ff;
+        color: #000;
+    }
+
+    /* Barre de recherche */
+
+    /* Bouton filtres */
+
+    .contenairbtn {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+
+    .btn {
+        background-color: #fff;
+        border: 2px solid #f2f2f2;
+        border-radius: 60px;
+        color: #000;
+        padding: 0 20px 0 20px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 0 15px 0 15px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .btn:hover {
+        animation: MoveUpDown 1s linear infinite;
+        background-color: #f2f2f2;
+    }
+
+    @keyframes MoveUpDown {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+        border: 1px solid #deebff;
+        border-radius: 60px;
+        color: #0065fc;
+        padding: 15px;
+        margin: 0 10px 0 -25px;
+        background-color: #deebff;
+    }
+
+    .attention {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .fa-info-circle {
+        background-color: #0065fc;
+        color: #fff;
+        border: 2px solid #f2f2f2;
+        border-radius: 40px;
+        margin: 0 10px 0 0;
+    }
+
+    /* Bouton filtres */

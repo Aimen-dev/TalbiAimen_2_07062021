@@ -15,7 +15,7 @@ img.pics4 {
 }
 
 .bottom-section {
-    background-color: none;
+    background-color: inherit;
     padding: 20px;
     max-width: 100%;
     border-radius: 20px;
@@ -24,7 +24,7 @@ img.pics4 {
 }
 
 .bottom-section a {
-    text-decoration: none;
+    text-decoration: inherit;
     color: #000;
 }
 

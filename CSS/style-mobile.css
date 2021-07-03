@@ -208,13 +208,20 @@
         font-weight: bolder;
         margin-top: 5px;
     }
+
+    .aresult-22 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
     .activite-result-2 {
         width: 100%;
-        height: 140px;
+        height: 140px
     }
     img.pics4 {
         width: 100%;
-        /* height: 100px; */
+        height: 100px;
     }
     .description-bottom {
         font-weight: bolder;

@@ -1,7 +1,5 @@
 @media screen and (max-width: 500px) {
-
     /* Ici commence le Header */
-
     header {
         margin: 0;
     }
@@ -57,10 +55,7 @@
         margin-bottom: 30px;
     }
     /* Ici finit le Header */
-
-
     /* Bloc recherche et Filtre */
-
     .search-section {
         display: inline-block;
         margin: 0 10px 0 10px;
@@ -94,13 +89,8 @@
         margin: 5px;
         padding: 0 4px 0 0;
     }
-    
-
     /* Bloc recherche et Filtre */
-
-
     /* Bloc résultat et Les plus populaire */
-
     .main-result {
         display: flex;
         flex-flow: column-reverse wrap;
@@ -137,9 +127,7 @@
     }
     .fa-chart-line {
         font-size: 1.3em;
-        position: absolute;
-        float: right;
-        margin: 0 50px 5px 0;
+        position: static;
     }
     .room-container-2 h4 {
         margin: 10px 0 5px 0;
@@ -179,10 +167,7 @@
         font-size: 12px;
     }
     /* Bloc résultat et Les plus populaire */
-
-
     /* Bloc Activités */
-
     h3.bottom-title {
         font-size: 20px;
         margin: 0 0 10px 25px;
@@ -208,9 +193,8 @@
         font-weight: bolder;
         margin-top: 5px;
     }
-
     .aresult-22 {
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
@@ -228,8 +212,6 @@
         margin-top: 5px;
     }
     /* Bloc Activités */
-
-    
     /* Footer */
     .footer-container {
         display: inline-flex;

@@ -1,11 +1,13 @@
 @media (max-width:959px) and (min-width: 501px) {
     html {
         background-color: red;
+    
     }
     body {
         background-color: green;
         display: table;
         margin: 0;
+    
     }
     /* Header */
     header {

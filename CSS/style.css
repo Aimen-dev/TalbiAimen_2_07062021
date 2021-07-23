@@ -3,6 +3,10 @@
 * {
   transition: all 0.3s ease-in-out;
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
 body {
   background-color: #fff;

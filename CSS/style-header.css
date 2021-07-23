@@ -14,18 +14,20 @@
         float: left;
         color: #0065fc;
         text-align: center;
-        padding: 12px;
+        padding: 12px 50px;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 50px;
+        border-top: 5px solid transparent;
     }
 
     .header img.logo {
         max-width: 100%;
-        height: auto;
+        height: 70px;
     }
 
     .header a:hover {
+        border-top: 5px solid #0065fc;
         background-color: #fff;
         color: #000;
     }
@@ -34,28 +36,28 @@
         font-weight: bold;
     }
 
-    .header a.active {
-        border-top: solid #0065fc;
-        color: #000;
-    }
+   
 
     .header-right {
         float: right;
     }
 
     h1 {
-        font-size: 16px;
-        font-weight: 900;
+        font-size: 23px;
+        font-weight: 1000;
+    }
+    header p {
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 16px;
-        font-weight: 900;
+        font-size: 23px;
+        font-weight: 1000;
     }
 
     h3 {
-        font-size: 16px;
-        font-weight: 900;
+        font-size: 23px;
+        font-weight: 1000;
     }
 
     /* Header */
